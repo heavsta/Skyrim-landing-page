@@ -1,0 +1,18 @@
+.nav {
+    padding-left: 15px;
+    display: flex;
+    &__link {
+        display: inline;
+        position: relative;
+        top: 10px;
+        text-transform: uppercase;
+        padding-left: 20px;
+        & a {
+            text-decoration: none;
+            color: $colour-accent;
+            &:hover {
+                color: lightness-shift($colour-accent);
+            }
+        }
+    }
+}

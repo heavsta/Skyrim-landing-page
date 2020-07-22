@@ -1,0 +1,34 @@
+body {
+    font-family: 'Goudy Bookletter 1911', Arial, Helvetica, sans-serif;
+}
+
+nav {
+    font-family: 'Goudy Bookletter 1911', Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-family: 'Goudy Bookletter 1911', Arial, Helvetica, sans-serif;
+}
+
+.section-header {
+    font-family: 'MedievalSharp', Arial, Helvetica, sans-serif;
+    &--right {
+        font-family: 'MedievalSharp', Arial, Helvetica, sans-serif;
+    }
+    &--dlc {
+        font-family: 'MedievalSharp', Arial, Helvetica, sans-serif;
+    }
+}
+
+.news-article {
+    &__legend {
+    font-family: 'Monda', Arial, Helvetica, sans-serif;
+    }
+    &__more {
+        font-family: 'Goudy Bookletter 1911', Arial, Helvetica, sans-serif;
+    }
+}
+
+.form, footer {
+    font-family: 'Monda', Arial, Helvetica, sans-serif;
+}

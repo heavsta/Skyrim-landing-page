@@ -1,0 +1,45 @@
+@mixin btn {
+    font-size: 1.1em;
+    font-weight: bold;
+    border: 0;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    padding: 7px 35px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: #86AAB8;
+    color: $colour-btn;
+    cursor: pointer;
+    &:hover {
+        color: lightness-shift($colour-btn)
+    }
+    &--login {
+        font-size: 1.1em;
+        font-weight: bold;
+        border: 0;
+        padding: 7px 35px;
+        margin-right: 10px;
+        border-radius: 50px;
+        background-color: $colour-login-bg;
+        color: $colour-login;
+        cursor: pointer;
+        &:hover {
+            color: lighten($colour-login, 10%);
+        }
+    }
+    &--register {
+        font-size: 1.1em;
+        font-weight: bold;
+        border: 0;
+        padding: 7px 35px;
+        margin-right: 10px;
+        border-radius: 50px;
+        background-color: $colour-register-bg;
+        color: $colour-register;
+        cursor: pointer;
+        &:hover {
+            color: lighten($colour-register, 10%);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "skyrim",
+  "version": "1.0.0",
+  "description": "project2",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Heavsta",
+  "license": "ISC"
+}
